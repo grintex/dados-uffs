@@ -1,0 +1,111 @@
+{
+  "help": "https://dados.uffs.edu.br/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "license_title": "Creative Commons Atribuição",
+    "maintainer": "",
+    "relationships_as_object": [],
+    "private": false,
+    "maintainer_email": "",
+    "num_tags": 1,
+    "id": "db8f0a48-8b45-472a-b1e9-ce07748d6385",
+    "metadata_created": "2019-10-11T12:28:51.673634",
+    "metadata_modified": "2019-10-11T18:03:51.953274",
+    "author": "",
+    "author_email": "",
+    "state": "active",
+    "version": "",
+    "creator_user_id": "bb9795c3-430d-4e9a-8d16-8510a64d0143",
+    "type": "dataset",
+    "resources": [
+      {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "###Lista de Projetos de Pesquisa: \r\n\r\n Projetos de Pesquisa, em execução, institucionalizados via sistema Prisma de acordo com o Regulamento da Pesquisa da UFFS. \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "name": "projetos_pesquisa",
+        "format": "",
+        "url": "https://dados.uffs.edu.br/datastore/dump/f54123ff-40b6-40bd-9fce-b8a4a7f8b219",
+        "datastore_active": true,
+        "cache_last_updated": null,
+        "package_id": "db8f0a48-8b45-472a-b1e9-ce07748d6385",
+        "created": "2019-10-11T17:02:08.475310",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 0,
+        "revision_id": "9236e432-7483-42c9-ab4c-4792fa3dbfb6",
+        "url_type": "datastore",
+        "id": "f54123ff-40b6-40bd-9fce-b8a4a7f8b219",
+        "resource_type": "Dataset",
+        "size": null
+      },
+      {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "###Dicionário de dados: \r\n\r\n Para uso através do Portal Brasileiro de Dados abertos (dados.gov.br). \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "name": "projetos_pesquisa_dicionario",
+        "format": "CSV",
+        "url": "https://dados.uffs.edu.br/datastore/dump/3e73b149-9171-4224-8d41-0beb65366e1f",
+        "datastore_active": true,
+        "cache_last_updated": null,
+        "package_id": "db8f0a48-8b45-472a-b1e9-ce07748d6385",
+        "created": "2019-10-11T17:16:26.120695",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 1,
+        "revision_id": "8dd30e0d-6a61-4ea5-9bb0-9101faa26fc8",
+        "url_type": "datastore",
+        "id": "3e73b149-9171-4224-8d41-0beb65366e1f",
+        "resource_type": "Guide",
+        "size": null
+      }
+    ],
+    "num_resources": 2,
+    "tags": [
+      {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "Projetos de Pesquisa",
+        "id": "1dbff432-e291-4080-85ef-f5339bcb488e",
+        "name": "Projetos de Pesquisa"
+      }
+    ],
+    "groups": [
+      {
+        "display_name": "Pesquisa",
+        "description": "",
+        "image_display_url": "",
+        "title": "Pesquisa",
+        "id": "06587f99-11b6-4c10-bcbe-da09f604e916",
+        "name": "pesquisa"
+      }
+    ],
+    "license_id": "cc-by",
+    "relationships_as_subject": [],
+    "organization": {
+      "description": "Universidade Federal da Fronteira Sul",
+      "created": "2018-04-17T16:14:49.592118",
+      "title": "UFFS",
+      "name": "uffs",
+      "is_organization": true,
+      "state": "active",
+      "image_url": "https://www.uffs.edu.br/institucional/reitoria/diretoria_de_comunicacao/identidade_visual/identidade-visual-da-uffs-em-branco-comm-fundo-verde/@@download/file",
+      "revision_id": "000074ce-63ad-4ed0-ac01-e9cf27e4d131",
+      "type": "organization",
+      "id": "814bb602-385e-4d26-b581-b350beca499f",
+      "approval_status": "approved"
+    },
+    "name": "projetos_pesquisa",
+    "isopen": true,
+    "url": "",
+    "notes": "###Lista de Projetos de Pesquisa: \r\n\r\nProjetos de Pesquisa, em execução, institucionalizados via sistema Prisma de acordo com o Regulamento da Pesquisa da UFFS.\r\n\r\nDisponibilizamos um dicionário de dados (projetos_pesquisa_dicionario) para uso através do Portal Brasileiro de Dados abertos (dados.gov.br).\r\n\r\nUtilize diretamente o Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br), se você deseja obter os dados e o dicionário de dados usando os recursos da API do Datastore (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+    "owner_org": "814bb602-385e-4d26-b581-b350beca499f",
+    "extras": [],
+    "license_url": "http://www.opendefinition.org/licenses/cc-by",
+    "title": "Projetos de Pesquisa",
+    "revision_id": "19d9211a-144d-43ea-9d4f-106fdf8c363e"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "help": "https://dados.uffs.edu.br/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "license_title": "Creative Commons Atribuição",
+    "maintainer": "Divisão de Gestão de Dados - DIGDA",
+    "relationships_as_object": [],
+    "private": false,
+    "maintainer_email": "dados@uffs.edu.br",
+    "num_tags": 1,
+    "id": "a14ccb78-d7eb-4d29-b890-94de8a5968f9",
+    "metadata_created": "2018-04-18T12:55:48.877271",
+    "owner_org": "814bb602-385e-4d26-b581-b350beca499f",
+    "metadata_modified": "2019-08-26T14:50:21.531792",
+    "author": "Diretoria de Pós-Graduação - DPG",
+    "author_email": "dir.posg@uffs.edu.br",
+    "state": "active",
+    "version": "2.0",
+    "license_id": "cc-by",
+    "type": "dataset",
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "mimetype_inner": null,
+        "hash": "",
+        "description": "###Lista de Cursos da Pós-Graduação: \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "format": "",
+        "url": "https://dados.uffs.edu.br/datastore/dump/d1f0607c-f1ee-4a5f-986f-8969f6448446",
+        "created": "2018-04-18T12:56:39.139947",
+        "state": "active",
+        "package_id": "a14ccb78-d7eb-4d29-b890-94de8a5968f9",
+        "last_modified": null,
+        "mimetype": null,
+        "url_type": "datastore",
+        "position": 0,
+        "revision_id": "3e0d9d0d-efbf-42c9-b59f-af59079468bb",
+        "size": null,
+        "datastore_active": true,
+        "id": "d1f0607c-f1ee-4a5f-986f-8969f6448446",
+        "resource_type": "Dataset",
+        "name": "pos_graduacao_cursos"
+      },
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "mimetype_inner": null,
+        "hash": "",
+        "description": "###Dicionário de dados: \r\n\r\n Para uso através do Portal Brasileiro de Dados abertos (dados.gov.br). \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "format": "CSV",
+        "url": "https://dados.uffs.edu.br/datastore/dump/5b915233-bcbb-4ccb-9d3c-adadd6a728d7",
+        "created": "2018-05-10T13:47:17.168351",
+        "state": "active",
+        "package_id": "a14ccb78-d7eb-4d29-b890-94de8a5968f9",
+        "last_modified": null,
+        "mimetype": null,
+        "url_type": "datastore",
+        "position": 1,
+        "revision_id": "3e0d9d0d-efbf-42c9-b59f-af59079468bb",
+        "size": null,
+        "datastore_active": true,
+        "id": "5b915233-bcbb-4ccb-9d3c-adadd6a728d7",
+        "resource_type": "Guide",
+        "name": "pos_graduacao_cursos_dicionario"
+      }
+    ],
+    "num_resources": 2,
+    "tags": [
+      {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "Pós-Graduação",
+        "id": "aa10beb2-85c1-43f3-8ef0-c2299b3629a6",
+        "name": "Pós-Graduação"
+      }
+    ],
+    "groups": [
+      {
+        "display_name": "Ensino",
+        "description": "",
+        "title": "Ensino",
+        "image_display_url": "",
+        "id": "6d09f18d-5585-4bba-94fe-9d291bc369ca",
+        "name": "ensino"
+      }
+    ],
+    "creator_user_id": "bb9795c3-430d-4e9a-8d16-8510a64d0143",
+    "relationships_as_subject": [],
+    "name": "pos_graduacao_cursos",
+    "isopen": true,
+    "url": "",
+    "notes": "###Lista de Cursos de Pós-Graduação:\r\n\r\nDisponibilizamos um dicionário de dados (pos_graduacao_cursos_dicionario) para uso através do Portal Brasileiro de Dados abertos (dados.gov.br).\r\n\r\nUtilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+    "title": "Cursos de Pós-Graduação",
+    "extras": [],
+    "license_url": "http://www.opendefinition.org/licenses/cc-by",
+    "organization": {
+      "description": "Universidade Federal da Fronteira Sul",
+      "title": "UFFS",
+      "created": "2018-04-17T16:14:49.592118",
+      "approval_status": "approved",
+      "is_organization": true,
+      "state": "active",
+      "image_url": "https://www.uffs.edu.br/institucional/reitoria/diretoria_de_comunicacao/identidade_visual/identidade-visual-da-uffs-em-branco-comm-fundo-verde/@@download/file",
+      "revision_id": "000074ce-63ad-4ed0-ac01-e9cf27e4d131",
+      "type": "organization",
+      "id": "814bb602-385e-4d26-b581-b350beca499f",
+      "name": "uffs"
+    },
+    "revision_id": "44f8a64b-6398-46c1-a2b8-3b73733f8774"
+  }
+}

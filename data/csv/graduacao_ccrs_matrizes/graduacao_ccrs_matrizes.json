@@ -1,0 +1,111 @@
+{
+  "help": "https://dados.uffs.edu.br/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "license_title": "Creative Commons Atribuição",
+    "maintainer": "Divisão de Gestão de Dados - DIGDA",
+    "relationships_as_object": [],
+    "private": false,
+    "maintainer_email": "dados@uffs.edu.br",
+    "num_tags": 1,
+    "id": "90d13faa-7026-49a6-a68c-09d17e457113",
+    "metadata_created": "2018-04-18T18:54:15.426897",
+    "owner_org": "814bb602-385e-4d26-b581-b350beca499f",
+    "metadata_modified": "2020-01-21T15:33:39.745830",
+    "author": "Diretoria de Registro Acadêmico - DRA",
+    "author_email": "dir.dra@uffs.edu.br",
+    "state": "active",
+    "version": "1.0",
+    "license_id": "cc-by",
+    "type": "dataset",
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "mimetype_inner": null,
+        "hash": "",
+        "description": "###Lista de CCRs por Matriz da Graduação: \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "format": "",
+        "url": "https://dados.uffs.edu.br/datastore/dump/d1eb86f1-58b2-4552-8c1c-60509f565563",
+        "created": "2018-04-18T18:54:37.278372",
+        "state": "active",
+        "package_id": "90d13faa-7026-49a6-a68c-09d17e457113",
+        "last_modified": null,
+        "mimetype": null,
+        "url_type": "datastore",
+        "position": 0,
+        "revision_id": "4eeca68f-cacd-4c9d-aa2c-243019494fb4",
+        "size": null,
+        "datastore_active": true,
+        "id": "d1eb86f1-58b2-4552-8c1c-60509f565563",
+        "resource_type": "Dataset",
+        "name": "graduacao_ccrs_matrizes"
+      },
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "mimetype_inner": null,
+        "hash": "",
+        "description": "###Dicionário de dados: \r\n\r\n Para uso através do Portal Brasileiro de Dados abertos (dados.gov.br). \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "format": "CSV",
+        "url": "https://dados.uffs.edu.br/datastore/dump/166a2429-c1fa-4675-9c99-ea368bade3ff",
+        "created": "2018-05-10T12:09:41.308090",
+        "state": "active",
+        "package_id": "90d13faa-7026-49a6-a68c-09d17e457113",
+        "last_modified": null,
+        "mimetype": null,
+        "url_type": "datastore",
+        "position": 1,
+        "revision_id": "f34b3965-a1f4-4539-8e6b-31a0cb90b4d7",
+        "size": null,
+        "datastore_active": true,
+        "id": "166a2429-c1fa-4675-9c99-ea368bade3ff",
+        "resource_type": "Guide",
+        "name": "graduacao_ccrs_matrizes_dicionario"
+      }
+    ],
+    "num_resources": 2,
+    "tags": [
+      {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "Graduação",
+        "id": "0931b34b-6508-46b6-8dbb-4cfc543b439c",
+        "name": "Graduação"
+      }
+    ],
+    "groups": [
+      {
+        "display_name": "Ensino",
+        "description": "",
+        "title": "Ensino",
+        "image_display_url": "",
+        "id": "6d09f18d-5585-4bba-94fe-9d291bc369ca",
+        "name": "ensino"
+      }
+    ],
+    "creator_user_id": "bb9795c3-430d-4e9a-8d16-8510a64d0143",
+    "relationships_as_subject": [],
+    "name": "graduacao_ccrs_matrizes",
+    "isopen": true,
+    "url": "",
+    "notes": "###Lista de CCRs por Matriz da Graduação\r\n\r\nDisponibilizamos um dicionário de dados (graduacao_ccrs_matrizes_dicionario) para uso através do Portal Brasileiro de Dados abertos (dados.gov.br).\r\n\r\nUtilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+    "title": "CCRs das Matrizes da Graduação",
+    "extras": [],
+    "license_url": "http://www.opendefinition.org/licenses/cc-by",
+    "organization": {
+      "description": "Universidade Federal da Fronteira Sul",
+      "title": "UFFS",
+      "created": "2018-04-17T16:14:49.592118",
+      "approval_status": "approved",
+      "is_organization": true,
+      "state": "active",
+      "image_url": "https://www.uffs.edu.br/institucional/reitoria/diretoria_de_comunicacao/identidade_visual/identidade-visual-da-uffs-em-branco-comm-fundo-verde/@@download/file",
+      "revision_id": "000074ce-63ad-4ed0-ac01-e9cf27e4d131",
+      "type": "organization",
+      "id": "814bb602-385e-4d26-b581-b350beca499f",
+      "name": "uffs"
+    },
+    "revision_id": "d21531c5-1b5c-4a25-b357-699504250ae9"
+  }
+}

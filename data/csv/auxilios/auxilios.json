@@ -1,0 +1,111 @@
+{
+  "help": "https://dados.uffs.edu.br/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "license_title": "Creative Commons Atribuição",
+    "maintainer": "",
+    "relationships_as_object": [],
+    "private": false,
+    "maintainer_email": "",
+    "num_tags": 1,
+    "id": "43972745-ee9a-4c54-8cc0-f119c7aaa912",
+    "metadata_created": "2019-10-11T17:43:00.422817",
+    "metadata_modified": "2019-10-11T17:47:49.965820",
+    "author": "",
+    "author_email": "",
+    "state": "active",
+    "version": "",
+    "creator_user_id": "bb9795c3-430d-4e9a-8d16-8510a64d0143",
+    "type": "dataset",
+    "resources": [
+      {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "###Relação de Beneficiários dos Auxílios Socioeconômicos: \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "name": "auxilios",
+        "format": "",
+        "url": "https://dados.uffs.edu.br/datastore/dump/f43675af-4e11-4471-a736-79404328eba8",
+        "datastore_active": true,
+        "cache_last_updated": null,
+        "package_id": "43972745-ee9a-4c54-8cc0-f119c7aaa912",
+        "created": "2019-10-11T17:44:42.383485",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 0,
+        "revision_id": "86a91977-de15-49b3-94f7-c7fbbfd7e16c",
+        "url_type": "datastore",
+        "id": "f43675af-4e11-4471-a736-79404328eba8",
+        "resource_type": "Dataset",
+        "size": null
+      },
+      {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "###Dicionário de dados: \r\n\r\n Para uso através do Portal Brasileiro de Dados abertos (dados.gov.br). \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "name": "auxilios_dicionario",
+        "format": "CSV",
+        "url": "https://dados.uffs.edu.br/datastore/dump/98f2707d-2e71-44a9-aa2e-8cbbbc1499bb",
+        "datastore_active": true,
+        "cache_last_updated": null,
+        "package_id": "43972745-ee9a-4c54-8cc0-f119c7aaa912",
+        "created": "2019-10-11T17:45:21.660524",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 1,
+        "revision_id": "86a91977-de15-49b3-94f7-c7fbbfd7e16c",
+        "url_type": "datastore",
+        "id": "98f2707d-2e71-44a9-aa2e-8cbbbc1499bb",
+        "resource_type": "Guide",
+        "size": null
+      }
+    ],
+    "num_resources": 2,
+    "tags": [
+      {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "Assuntos Estudantis",
+        "id": "31f14056-1059-4839-80ca-1d924ccd1d6a",
+        "name": "Assuntos Estudantis"
+      }
+    ],
+    "groups": [
+      {
+        "display_name": "Assuntos Estudantis",
+        "description": "",
+        "image_display_url": "",
+        "title": "Assuntos Estudantis",
+        "id": "5a24c7d1-2edc-4686-a425-022899a22c85",
+        "name": "assuntos-estudantis"
+      }
+    ],
+    "license_id": "cc-by",
+    "relationships_as_subject": [],
+    "organization": {
+      "description": "Universidade Federal da Fronteira Sul",
+      "created": "2018-04-17T16:14:49.592118",
+      "title": "UFFS",
+      "name": "uffs",
+      "is_organization": true,
+      "state": "active",
+      "image_url": "https://www.uffs.edu.br/institucional/reitoria/diretoria_de_comunicacao/identidade_visual/identidade-visual-da-uffs-em-branco-comm-fundo-verde/@@download/file",
+      "revision_id": "000074ce-63ad-4ed0-ac01-e9cf27e4d131",
+      "type": "organization",
+      "id": "814bb602-385e-4d26-b581-b350beca499f",
+      "approval_status": "approved"
+    },
+    "name": "auxilios",
+    "isopen": true,
+    "url": "",
+    "notes": "Disponibilizamos um dicionário de dados (auxilios_dicionario) para uso através do Portal Brasileiro de Dados abertos (dados.gov.br).\r\n\r\nUtilize diretamente o Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br), se você deseja obter os dados e o dicionário de dados usando os recursos da API do Datastore (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.\r\n",
+    "owner_org": "814bb602-385e-4d26-b581-b350beca499f",
+    "extras": [],
+    "license_url": "http://www.opendefinition.org/licenses/cc-by",
+    "title": "Beneficiários dos Auxílios Socioeconômicos",
+    "revision_id": "0354e950-ce4f-4b83-9a6d-ef18f4b3da7e"
+  }
+}

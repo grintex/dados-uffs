@@ -1,0 +1,111 @@
+{
+  "help": "https://dados.uffs.edu.br/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "license_title": "Creative Commons Atribuição",
+    "maintainer": "Divisão de Gestão de Dados - DIGDA",
+    "relationships_as_object": [],
+    "private": false,
+    "maintainer_email": "dados@uffs.edu.br",
+    "num_tags": 1,
+    "id": "ca4559e9-28c6-40c7-87b4-cb6980eba9f2",
+    "metadata_created": "2018-04-18T12:18:22.012077",
+    "owner_org": "814bb602-385e-4d26-b581-b350beca499f",
+    "metadata_modified": "2019-08-26T14:50:55.822334",
+    "author": "Diretoria de Pós-Graduação - DPG",
+    "author_email": "dir.posg@uffs.edu.br",
+    "state": "active",
+    "version": "1.0",
+    "license_id": "cc-by",
+    "type": "dataset",
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "mimetype_inner": null,
+        "hash": "",
+        "description": "###Lista de Processos seletivos da Pós-Graduação: \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "format": "",
+        "url": "https://dados.uffs.edu.br/datastore/dump/a6633b6a-530f-425e-a8eb-8c4188408319",
+        "created": "2018-04-18T12:45:29.941865",
+        "state": "active",
+        "package_id": "ca4559e9-28c6-40c7-87b4-cb6980eba9f2",
+        "last_modified": null,
+        "mimetype": null,
+        "url_type": "datastore",
+        "position": 0,
+        "revision_id": "cf9eb2e0-5d46-467a-8d92-97d1610c41c6",
+        "size": null,
+        "datastore_active": true,
+        "id": "a6633b6a-530f-425e-a8eb-8c4188408319",
+        "resource_type": "Dataset",
+        "name": "pos_graduacao_processo_seletivo"
+      },
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "mimetype_inner": null,
+        "hash": "",
+        "description": "###Dicionário de dados: \r\n\r\n Para uso através do Portal Brasileiro de Dados abertos (dados.gov.br). \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "format": "CSV",
+        "url": "https://dados.uffs.edu.br/datastore/dump/c898a921-7443-4ce8-8259-8a410dc2f149",
+        "created": "2018-05-10T13:39:03.291254",
+        "state": "active",
+        "package_id": "ca4559e9-28c6-40c7-87b4-cb6980eba9f2",
+        "last_modified": null,
+        "mimetype": null,
+        "url_type": "datastore",
+        "position": 1,
+        "revision_id": "03a7292f-7e62-4c7c-802b-27bcdbeef7ca",
+        "size": null,
+        "datastore_active": true,
+        "id": "c898a921-7443-4ce8-8259-8a410dc2f149",
+        "resource_type": "Guide",
+        "name": "pos_graduacao_processo_seletivo_dicionario"
+      }
+    ],
+    "num_resources": 2,
+    "tags": [
+      {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "Pós-Graduação",
+        "id": "aa10beb2-85c1-43f3-8ef0-c2299b3629a6",
+        "name": "Pós-Graduação"
+      }
+    ],
+    "groups": [
+      {
+        "display_name": "Ensino",
+        "description": "",
+        "title": "Ensino",
+        "image_display_url": "",
+        "id": "6d09f18d-5585-4bba-94fe-9d291bc369ca",
+        "name": "ensino"
+      }
+    ],
+    "creator_user_id": "bb9795c3-430d-4e9a-8d16-8510a64d0143",
+    "relationships_as_subject": [],
+    "name": "pos_graduacao_processo_seletivo",
+    "isopen": true,
+    "url": "",
+    "notes": "###Lista de Processos seletivos da Pós-Graduação: \r\n\r\nDisponibilizamos um dicionário de dados (pos_graduacao_processo_seletivo_dicionario) para uso através do Portal Brasileiro de Dados abertos (dados.gov.br).\r\n\r\nUtilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+    "title": "Processos Seletivos da Pós-Graduação",
+    "extras": [],
+    "license_url": "http://www.opendefinition.org/licenses/cc-by",
+    "organization": {
+      "description": "Universidade Federal da Fronteira Sul",
+      "title": "UFFS",
+      "created": "2018-04-17T16:14:49.592118",
+      "approval_status": "approved",
+      "is_organization": true,
+      "state": "active",
+      "image_url": "https://www.uffs.edu.br/institucional/reitoria/diretoria_de_comunicacao/identidade_visual/identidade-visual-da-uffs-em-branco-comm-fundo-verde/@@download/file",
+      "revision_id": "000074ce-63ad-4ed0-ac01-e9cf27e4d131",
+      "type": "organization",
+      "id": "814bb602-385e-4d26-b581-b350beca499f",
+      "name": "uffs"
+    },
+    "revision_id": "456c5346-8577-4eb8-a06e-45d34aafa4f3"
+  }
+}
