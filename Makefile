@@ -14,6 +14,7 @@ API_URL = $(CKAN_URL)/api/3/action
 # Variáveis do script
 CURRENT_DIR := $(strip $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST)))))
 DATA_DIR := $(CURRENT_DIR)/data
+SRC_DIR := $(CURRENT_DIR)/src
 CSV_DATA_DIR := $(DATA_DIR)/csv
 DATASETS := $(shell curl -s $(API_URL)/package_list | jq -r '.result[]')
 
@@ -25,11 +26,15 @@ install-deps:   ## Instala todas as dependências para rodar os scripts dessa pa
 	curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 	sudo apt install git git-lfs python3-pip jq curl wget
 	git lfs install
-	pip3 install csvs-to-sqlite
+	pip3 install csvs-to-sqlite scrapy
 	@echo Pronto!
 
 list:          ## Lista os datasets disponíveis para download. 
 	@echo $(DATASETS) | tr ' ' '\n'
+
+download-programs:     ## Baixa informações sobre cursos. 
+	cd $(SRC_DIR)
+	scrapy runspider download-programs.py 
 
 download:      ## Faz download da última versão de todos os datasets.
 	@for d in $(DATASETS); do \
