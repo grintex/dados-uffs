@@ -4,6 +4,7 @@
 
 # Other stuff
 .idea
+__pycache__
 
 # Intermediary/compiled files
 .class
