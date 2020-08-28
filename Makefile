@@ -16,6 +16,7 @@ CURRENT_DIR := $(strip $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 DATA_DIR := $(CURRENT_DIR)/data
 SRC_DIR := $(CURRENT_DIR)/src
 CSV_DATA_DIR := $(DATA_DIR)/csv
+JSON_DATA_DIR := $(DATA_DIR)/json
 DATASETS := $(shell curl -s $(API_URL)/package_list | jq -r '.result[]')
 
 help:           ## Mostra essa ajuda.
@@ -32,9 +33,8 @@ install-deps:   ## Instala todas as dependências para rodar os scripts dessa pa
 list:          ## Lista os datasets disponíveis para download. 
 	@echo $(DATASETS) | tr ' ' '\n'
 
-download-programs:     ## Baixa informações sobre cursos. 
-	cd $(SRC_DIR)
-	scrapy runspider download-programs.py 
+download-sources:     ## Baixa informações sobre cursos. 
+	scrapy runspider $(SRC_DIR)/download-source-programs.py -o $(JSON_DATA_DIR)/sources/cursos.json
 
 download:      ## Faz download da última versão de todos os datasets.
 	@for d in $(DATASETS); do \
