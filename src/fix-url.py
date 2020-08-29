@@ -17,6 +17,10 @@ if len(parts) != 2:
 
 place = parts[0].replace("campus-", "")
 program = parts[1]
+sector = "graduacao"
+
+if place == "laranjeiras-do-sul":
+    sector = "cursos"
 
 if program == "ciencias-sociais":
     program = "ciencias-socias"
@@ -24,5 +28,5 @@ if program == "ciencias-sociais":
 if program == "engenharia-ambiental-e-sanitaria":    
     program = "engenharia-ambiental"
 
-print(main_link + "/campi/" + place + "/cursos/graduacao/" + program)
+print(main_link + "/campi/" + place + "/cursos/" + sector + "/" + program)
 sys.exit(0)
