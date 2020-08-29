@@ -14,7 +14,7 @@ class DownloadProfessors(scrapy.Spider):
             professor_name = row.xpath('td[1]//span/text()').extract_first()
             professor_email = row.xpath('td[2]//span/text()').extract_first()
             professor_lattes = row.xpath('td[3]//span/text()').extract_first()
-            print(professor_name.strip())
+
             if len(professor_name.strip()) == 0:
                 next
 

@@ -34,7 +34,7 @@ list:          ## Lista os datasets disponíveis para download.
 	@echo $(DATASETS) | tr ' ' '\n'
 
 download-sources:     ## Baixa informações sobre cursos. 
-	scrapy runspider $(SRC_DIR)/download-source-programs.py -o $(JSON_DATA_DIR)/sources/cursos.json -a parameter1=value1 -a parameter2=value2
+	scrapy runspider $(SRC_DIR)/download-source-programs.py -o $(JSON_DATA_DIR)/sources/cursos.json
 
 download-from-sources:     ## Baixa informações sobre cursos. 
 	$(SRC_DIR)/download-from-sources.sh $(SRC_DIR) $(CSV_DATA_DIR) $(JSON_DATA_DIR)

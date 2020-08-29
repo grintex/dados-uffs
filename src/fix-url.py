@@ -21,5 +21,8 @@ program = parts[1]
 if program == "ciencias-sociais":
     program = "ciencias-socias"
 
+if program == "engenharia-ambiental-e-sanitaria":    
+    program = "engenharia-ambiental"
+
 print(main_link + "/campi/" + place + "/cursos/graduacao/" + program)
 sys.exit(0)
