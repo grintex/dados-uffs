@@ -7,7 +7,7 @@ class DownloadSourcePrograms(scrapy.Spider):
 
     def parse(self, response):
         for link in response.css('section#content-core a'):
-            program_name = link.css('span::text').get()
+            program_name = link.css('::text').get()
             program_link = link.attrib['href']
             program_id = os.path.basename(link.attrib['href'])
 

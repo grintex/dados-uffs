@@ -33,3 +33,6 @@ for row in $(cat $JSON_DATA_DIR/sources/cursos.json | jq -r '.[] | @base64'); do
     scrapy runspider $SRC_DIR/download-professors.py -o $output_path_json/professores.json -a link=$link --nolog
     scrapy runspider $SRC_DIR/download-professors.py -o $output_path_csv/professores.csv -a link=$link --nolog
 done
+
+# Adjust some peculiarities
+mv $JSON_DATA_DIR/professores/laranjeiras-do-sul/cursos/cursos $JSON_DATA_DIR/professores/laranjeiras-do-sul/cursos/graduacao
