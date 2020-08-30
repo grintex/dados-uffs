@@ -39,6 +39,9 @@ download-sources:     ## Baixa informações sobre cursos.
 download-from-sources:     ## Baixa informações sobre cursos. 
 	$(SRC_DIR)/download-from-sources.sh $(SRC_DIR) $(CSV_DATA_DIR) $(JSON_DATA_DIR)
 
+download-documents:     ## Baixa informações sobre cursos. 
+	$(SRC_DIR)/download-documents.sh 2020 $(SRC_DIR) $(CSV_DATA_DIR) $(JSON_DATA_DIR)
+
 download:      ## Faz download da última versão de todos os datasets.
 	@for d in $(DATASETS); do \
 		echo "Baixando $$d..."; \
