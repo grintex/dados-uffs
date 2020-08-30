@@ -27,7 +27,7 @@ install-deps:   ## Instala todas as dependências para rodar os scripts dessa pa
 	curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 	sudo apt install git git-lfs python3-pip jq curl wget
 	git lfs install
-	pip3 install csvs-to-sqlite scrapy
+	pip3 install csvs-to-sqlite scrapy markdownify
 	@echo Pronto!
 
 list:          ## Lista os datasets disponíveis para download. 
@@ -40,7 +40,7 @@ download-from-sources:     ## Baixa informações sobre cursos.
 	$(SRC_DIR)/download-from-sources.sh $(SRC_DIR) $(CSV_DATA_DIR) $(JSON_DATA_DIR)
 
 download-documents:     ## Baixa informações sobre cursos. 
-	$(SRC_DIR)/download-documents.sh 2020 $(SRC_DIR) $(CSV_DATA_DIR) $(JSON_DATA_DIR)
+	$(SRC_DIR)/download-documents.sh 2020 $(SRC_DIR) $(DATA_DIR)
 
 download:      ## Faz download da última versão de todos os datasets.
 	@for d in $(DATASETS); do \

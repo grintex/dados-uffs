@@ -2,11 +2,12 @@
 
 YEAR=$1
 SRC_DIR=$2
-CSV_DATA_DIR=$3
-JSON_DATA_DIR=$4
+DATA_DIR=$3
 
 YEAR_FMT="@Y"
 NUMBER_FMT="@N"
+
+BASE_URL="https://www.uffs.edu.br/UFFS/"
 
 base_urls=(
     "https://www.uffs.edu.br/UFFS/atos-normativos/edital/gr/@Y-@N"
@@ -18,7 +19,7 @@ for url_fmt in "${base_urls[@]}"; do
     i=1
 
     while true; do
-        if [[ "$i" -gt 600 ]]; then
+        if [[ "$i" -gt 2 ]]; then
             break
         fi
 
@@ -27,7 +28,12 @@ for url_fmt in "${base_urls[@]}"; do
         url=${url_fmt/$YEAR_FMT/$YEAR}
         url=${url/$NUMBER_FMT/$leading_number}
 
+        output_folder=$DATA_DIR/text/${url/$BASE_URL/}
+
         echo " $url"
+
+        mkdir -p $output_folder
+        scrapy runspider $SRC_DIR/download-document.py -a url="$url" -a output="$output_folder"
 
         ((i++))
     done
