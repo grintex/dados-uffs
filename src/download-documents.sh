@@ -1,40 +1,17 @@
 #!/usr/bin/bash
 
-YEAR=$1
-SRC_DIR=$2
-DATA_DIR=$3
+SRC_DIR=$1
+DATA_DIR=$2
 
-YEAR_FMT="@Y"
-NUMBER_FMT="@N"
-
-BASE_URL="https://www.uffs.edu.br/UFFS/"
-
-base_urls=(
-    "https://www.uffs.edu.br/UFFS/atos-normativos/edital/gr/@Y-@N"
+years=(
+    2010 2011 2012
+    2013 2014 2015
+    2016 2017 2018
+    2019 2020
 )
 
-echo "Baixando documentos de $YEAR:"
+echo "Iterando documentos por ano:"
 
-for url_fmt in "${base_urls[@]}"; do
-    i=1
-
-    while true; do
-        if [[ "$i" -gt 2 ]]; then
-            break
-        fi
-
-        leading_number=$(printf "%04d\n" $i)
-
-        url=${url_fmt/$YEAR_FMT/$YEAR}
-        url=${url/$NUMBER_FMT/$leading_number}
-
-        output_folder=$DATA_DIR/text/${url/$BASE_URL/}
-
-        echo " $url"
-
-        mkdir -p $output_folder
-        scrapy runspider $SRC_DIR/download-document.py -a url="$url" -a output="$output_folder"
-
-        ((i++))
-    done
+for year in "${years[@]}"; do
+    $SRC_DIR/download-documents-year.sh $year $SRC_DIR $DATA_DIR
 done
