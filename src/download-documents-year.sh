@@ -29,7 +29,7 @@ for url_fmt in "${base_urls[@]}"; do
         url=${url_fmt/$YEAR_FMT/$YEAR}
         url=${url/$NUMBER_FMT/$leading_number}
 
-        output_folder=$DATA_DIR/text/${url/$BASE_URL/}
+        output_folder=$DATA_DIR/text/$YEAR/${url/$BASE_URL/}
 
         if [ -d "$output_folder" ]; then
             echo " ignorando (existente) $url"

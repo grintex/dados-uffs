@@ -13,5 +13,6 @@ years=(
 echo "Iterando documentos por ano:"
 
 for year in "${years[@]}"; do
-    $SRC_DIR/download-documents-year.sh $year $SRC_DIR $DATA_DIR
+    $SRC_DIR/download-documents-year.sh $year $SRC_DIR $DATA_DIR &
+    sleep 10
 done
