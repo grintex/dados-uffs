@@ -12,6 +12,9 @@ BASE_URL="https://www.uffs.edu.br/UFFS/"
 
 base_urls=(
     "https://www.uffs.edu.br/UFFS/atos-normativos/edital/gr/@Y-@N"
+    "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/gr/@Y-@N"
+    "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/dirch/@Y-@N"
+    "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/proad/@Y-@N"
 )
 
 echo "Iterando documentos de $YEAR:"
