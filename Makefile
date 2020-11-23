@@ -24,14 +24,21 @@ help:           ## Mostra essa ajuda.
 
 install-deps:   ## Instala todas as dependências para rodar os scripts dessa pasta.
 	@echo Instalando dependencias...
+	sudo apt install git git-lfs python3-pip jq curl wget ripgrep csvtool
 	curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-	sudo apt install git git-lfs python3-pip jq curl wget
 	git lfs install
 	pip3 install csvs-to-sqlite scrapy markdownify
 	@echo Pronto!
 
 list:          ## Lista os datasets disponíveis para download. 
 	@echo $(DATASETS) | tr ' ' '\n'
+
+list-professors:          ## Lista os professores conhecidos com base no historico escolar
+	echo 'nome' > $(DATA_DIR)/csv/professores/all.csv
+	$(SRC_DIR)/list-professors.sh $(DATA_DIR)/csv/graduacao_historico/graduacao_historico.csv >> $(DATA_DIR)/csv/professores/all.csv
+
+adm-mentions:          ## Lista de menções de professores em documentos oficiais
+	@$(SRC_DIR)/professors-adm-mentions.sh $(DATA_DIR)/csv/professores/all.csv $(DATA_DIR)/text $(DATA_DIR)/csv/professores_mencao_docs
 
 download-sources:     ## Baixa informações sobre cursos. 
 	scrapy runspider $(SRC_DIR)/download-source-programs.py -o $(JSON_DATA_DIR)/sources/cursos.json
@@ -51,4 +58,4 @@ download:      ## Faz download da última versão de todos os datasets.
 	done
 
 sqlite:       ## Gera um database sqlite cujas tabelas são os CSV da pasta "data/csv/".  
-	csvs-to-sqlite $(CSV_DATA_DIR) $(DATA_DIR)/sqlite/dados-uffs.db
+	csvs-to-sqlite $(CSV_DATA_DIR) $(DATA_DIR)/sqlite/dados-uffs.sqlite
