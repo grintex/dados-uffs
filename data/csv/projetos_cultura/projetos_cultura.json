@@ -1,0 +1,111 @@
+{
+  "help": "https://dados.uffs.edu.br/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "license_title": "Creative Commons Atribuição",
+    "maintainer": "",
+    "relationships_as_object": [],
+    "private": false,
+    "maintainer_email": "",
+    "num_tags": 1,
+    "id": "d45a9589-e8fb-4f2c-901b-867225640110",
+    "metadata_created": "2020-09-14T14:49:27.366825",
+    "metadata_modified": "2020-10-20T18:56:26.225944",
+    "author": "",
+    "author_email": "",
+    "state": "active",
+    "version": "",
+    "creator_user_id": "bb9795c3-430d-4e9a-8d16-8510a64d0143",
+    "type": "dataset",
+    "resources": [
+      {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "",
+        "name": "projetos_cultura",
+        "format": "",
+        "url": "https://dados.uffs.edu.br/datastore/dump/ecee5e45-3246-488d-9cdc-c89eff8e26bd",
+        "datastore_active": true,
+        "cache_last_updated": null,
+        "package_id": "d45a9589-e8fb-4f2c-901b-867225640110",
+        "created": "2020-09-14T15:23:54.364966",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 0,
+        "revision_id": "04f1c642-2869-4482-bea5-457a113b81d5",
+        "url_type": "datastore",
+        "id": "ecee5e45-3246-488d-9cdc-c89eff8e26bd",
+        "resource_type": null,
+        "size": null
+      },
+      {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "###Dicionário de dados: \r\n\r\n Para uso através do Portal Brasileiro de Dados abertos (dados.gov.br). \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "name": "projetos_cultura_dicionario",
+        "format": "CSV",
+        "url": "https://dados.uffs.edu.br/datastore/dump/b561f133-fab7-420a-a0c9-5ae4ccfbd807",
+        "datastore_active": true,
+        "cache_last_updated": null,
+        "package_id": "d45a9589-e8fb-4f2c-901b-867225640110",
+        "created": "2020-09-14T15:24:23.613055",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 1,
+        "revision_id": "39d3e708-1548-4cac-ae73-eba0dc2bb989",
+        "url_type": "datastore",
+        "id": "b561f133-fab7-420a-a0c9-5ae4ccfbd807",
+        "resource_type": "Guide",
+        "size": null
+      }
+    ],
+    "num_resources": 2,
+    "tags": [
+      {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "Projetos de Cultura",
+        "id": "f282ca55-7a34-4772-aad1-28b7196c8eda",
+        "name": "Projetos de Cultura"
+      }
+    ],
+    "groups": [
+      {
+        "display_name": "Cultura",
+        "description": "",
+        "image_display_url": "",
+        "title": "Cultura",
+        "id": "9b855c99-c8ee-4576-9b9f-94264d6a70b3",
+        "name": "cultura"
+      }
+    ],
+    "license_id": "cc-by",
+    "relationships_as_subject": [],
+    "organization": {
+      "description": "Universidade Federal da Fronteira Sul",
+      "created": "2018-04-17T16:14:49.592118",
+      "title": "UFFS",
+      "name": "uffs",
+      "is_organization": true,
+      "state": "active",
+      "image_url": "https://www.uffs.edu.br/institucional/reitoria/diretoria_de_comunicacao/identidade_visual/identidade-visual-da-uffs-em-branco-comm-fundo-verde/@@download/file",
+      "revision_id": "000074ce-63ad-4ed0-ac01-e9cf27e4d131",
+      "type": "organization",
+      "id": "814bb602-385e-4d26-b581-b350beca499f",
+      "approval_status": "approved"
+    },
+    "name": "projetos_cultura",
+    "isopen": true,
+    "url": "",
+    "notes": "###Lista de Projetos de Cultura: \r\n\r\nProjetos de Cultura institucionalizados via sistema Prisma.\r\n\r\nDisponibilizamos um dicionário de dados (projetos_cultura_dicionario) para uso através do Portal Brasileiro de Dados abertos (dados.gov.br).\r\n\r\nUtilize diretamente o Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br), se você deseja obter os dados e o dicionário de dados usando os recursos da API do Datastore (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+    "owner_org": "814bb602-385e-4d26-b581-b350beca499f",
+    "extras": [],
+    "license_url": "http://www.opendefinition.org/licenses/cc-by",
+    "title": "Projetos de Cultura",
+    "revision_id": "6d622e06-9b2b-4661-ba74-d7bf41b9485b"
+  }
+}

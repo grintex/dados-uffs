@@ -1,0 +1,111 @@
+{
+  "help": "https://dados.uffs.edu.br/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "license_title": "Creative Commons Atribuição",
+    "maintainer": "",
+    "relationships_as_object": [],
+    "private": false,
+    "maintainer_email": "",
+    "num_tags": 1,
+    "id": "b9b60c19-a26c-4e19-8425-dc0ead23b706",
+    "metadata_created": "2020-09-14T14:48:28.292341",
+    "metadata_modified": "2020-10-20T18:55:46.727646",
+    "author": "",
+    "author_email": "",
+    "state": "active",
+    "version": "",
+    "creator_user_id": "bb9795c3-430d-4e9a-8d16-8510a64d0143",
+    "type": "dataset",
+    "resources": [
+      {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "",
+        "name": "projetos_extensao",
+        "format": "",
+        "url": "https://dados.uffs.edu.br/datastore/dump/75eb15ab-c30f-4c40-8c19-a5bf936a0aa5",
+        "datastore_active": true,
+        "cache_last_updated": null,
+        "package_id": "b9b60c19-a26c-4e19-8425-dc0ead23b706",
+        "created": "2020-09-14T15:21:09.407240",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 0,
+        "revision_id": "2dc5df91-c39f-422d-ac0c-daa812755e65",
+        "url_type": "datastore",
+        "id": "75eb15ab-c30f-4c40-8c19-a5bf936a0aa5",
+        "resource_type": null,
+        "size": null
+      },
+      {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "###Dicionário de dados: \r\n\r\n Para uso através do Portal Brasileiro de Dados abertos (dados.gov.br). \r\n\r\n Utilize diretamente o __Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br)__, se você deseja obter os dados e o dicionário de dados usando os recursos da __API do Datastore__ (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+        "name": "projetos_extensao_dicionario",
+        "format": "CSV",
+        "url": "https://dados.uffs.edu.br/datastore/dump/d0242556-3b04-4d5d-8206-d1b23ea15b27",
+        "datastore_active": true,
+        "cache_last_updated": null,
+        "package_id": "b9b60c19-a26c-4e19-8425-dc0ead23b706",
+        "created": "2020-09-14T15:21:57.958270",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 1,
+        "revision_id": "dadc7a42-93e4-492b-a9a0-21e84dd1e292",
+        "url_type": "datastore",
+        "id": "d0242556-3b04-4d5d-8206-d1b23ea15b27",
+        "resource_type": "Guide",
+        "size": null
+      }
+    ],
+    "num_resources": 2,
+    "tags": [
+      {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "Projetos de Extensão",
+        "id": "881beb3b-2adc-4e11-a139-cadf19cbac94",
+        "name": "Projetos de Extensão"
+      }
+    ],
+    "groups": [
+      {
+        "display_name": "Extensão",
+        "description": "",
+        "image_display_url": "",
+        "title": "Extensão",
+        "id": "7beb7105-efc1-411a-ab91-07e0f2d7cb52",
+        "name": "extensao"
+      }
+    ],
+    "license_id": "cc-by",
+    "relationships_as_subject": [],
+    "organization": {
+      "description": "Universidade Federal da Fronteira Sul",
+      "created": "2018-04-17T16:14:49.592118",
+      "title": "UFFS",
+      "name": "uffs",
+      "is_organization": true,
+      "state": "active",
+      "image_url": "https://www.uffs.edu.br/institucional/reitoria/diretoria_de_comunicacao/identidade_visual/identidade-visual-da-uffs-em-branco-comm-fundo-verde/@@download/file",
+      "revision_id": "000074ce-63ad-4ed0-ac01-e9cf27e4d131",
+      "type": "organization",
+      "id": "814bb602-385e-4d26-b581-b350beca499f",
+      "approval_status": "approved"
+    },
+    "name": "projetos_extensao",
+    "isopen": true,
+    "url": "",
+    "notes": "###Lista de Projetos de Extensão: \r\n\r\nProjetos de Extensão institucionalizados via sistema Prisma.\r\n\r\nDisponibilizamos um dicionário de dados (projetos_extensao_dicionario) para uso através do Portal Brasileiro de Dados abertos (dados.gov.br).\r\n\r\nUtilize diretamente o Portal de Dados Abertos da UFFS (https://dados.uffs.edu.br), se você deseja obter os dados e o dicionário de dados usando os recursos da API do Datastore (http://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api), pois o portal brasileiro não disponibiliza tais recursos.",
+    "owner_org": "814bb602-385e-4d26-b581-b350beca499f",
+    "extras": [],
+    "license_url": "http://www.opendefinition.org/licenses/cc-by",
+    "title": "Projetos de Extensão",
+    "revision_id": "95521729-f9fc-48e3-927d-6d72e90b9d86"
+  }
+}
