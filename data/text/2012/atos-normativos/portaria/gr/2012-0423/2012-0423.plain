@@ -1,0 +1,225 @@
+Revogada por:
+					
+	 					PORTARIA Nº 332/GR/UFFS/2013 (REVOGADA)
+					
+			    
+
+			    
+
+				    
+						
+				    	ESTABELECE OS FLUXOS PARA CONTRATAÇÕES DE SOLUÇÕES DE TECNOLOGIA DA INFORMAÇÃO
+						
+			    		
+
+ O REITOR PRO TEMPORE  DA UNIVERSIDADE FEDERAL DA FRONTEIRA SUL (UFFS), no uso de suas atribuições legais e considerando a necessidade de institucionalizar os procedimentos requeridos pelas INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010 e INSTRUÇÃO NORMATIVA Nº 2 DE 14 DE FEVEREIRO DE 2012, do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP) do Ministério de Planejamento, Orçamento e Gestão, sendo que estas representam a consolidação de um conjunto de boas práticas para Contratação de Soluções de TI pela Administração Pública Federal, resolve:
+ 
+  Art. 1º  ESTABELECER os fluxos e procedimentos para a Contratação de Soluções em TI no âmbito da Universidade Federal da Fronteira Sul, através do Manual de Contratação de Soluções de TI e seus documentos auxiliares.
+ 
+  Art. 2º  O conteúdo do Manual de Contratações de Soluções em TI está disponível no ANEXO I  desta portaria.
+ 
+ Chapecó-SC, 27 de abril de 2012.
+ 
+ 
+ 
+ PROF. JAIME GIOLO
+ Reitor  pro tempore  da UFFS
+ 
+ ANEXO I
+ 
+ MANUAL PARA CONTRATAÇÃO DE SOLUÇÕES DE TI
+ 
+ 
+ 1. INTRODUÇÃO
+  Este Manual para Contratação de Soluções de TI  surgiu da necessidade de esclarecer e orientar todos os setores da Universidade Federal da Fronteira Sul (UFFS) na compra e contratação de soluções da área de Tecnologia da Informação e Comunicação. O Manual tem como referência as INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010 e INSTRUÇÃO NORMATIVA Nº 2 DE 14 DE FEVEREIRO DE 2012, do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP) do Ministério de Planejamento, Orçamento e Gestão. Sendo que a INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010 é a consolidação de um conjunto de boas práticas para Contratação de Soluções de TI pela Administração Pública Federal, que também devem seguir a LEI Nº 8.666, DE 21 DE JUNHO DE 1993, o Plano Plurianual UFFS e respectivas Ações Anuais, e seguir a Agenda de Compras da UFFS.
+ Este documento descreve os processos, as atividades e os formulários a serem seguidos pelos setores requisitantes de soluções em TI para estar de acordo com os procedimentos legais requeridos pelo Tribunal de Contas da União (TCU).
+ A INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010, em seu art. 8º, estabelece que “[...] as contratações de Soluções de Tecnologia da Informação deverão seguir três fases”. São elas:
+ • Planejamento da Contratação de Soluções de TI;
+ • Seleção do Fornecedor de Soluções de TI; e
+ • Gerenciamento do Contrato de Solução TI.
+ Para cada fase foram identificados os processos e as atividades, e elaborados os modelos de documentos, que serão descritos no item 6.
+ O processo de Contratação de Soluções em TI segue o fluxo mostrado na Figura 1.
+ Figura 1. Modelo de Contratação de Soluções de TI
+ Fonte: Elaborado com base nas orientações do Ministério do Planejamento, Orçamento e Gestão, 2011
+  2. ATORES ENVOLVIDOS NO PROCESSO DE CONTRATAÇÃO DE SOLUÇÕES EM TI
+  Na INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010 são apresentados os atores que participam do processo de Contratação de Soluções em TI e que papel desemprenham no processo. Uma pessoa/setor pode desempenhar mais de um papel no Processo de Contratação. Por outro lado, pode haver casos, especialmente na fase de Planejamento da Contratação, em que um mesmo papel seja desempenhado por mais de uma pessoa/setor.
+ São apresentados 14 atores, cujas descrições são apresentadas a seguir:
+  a) ÁREA REQUISITANTE DA SOLUÇÃO:  Pró-Reitorias, Secretarias, Diretorias e Departamentos da UFFS que demandem a Contratação de uma Solução de Tecnologia da Informação. Fase de que participa: Planejamento da Contratação de Soluções de TI e Gerenciamento do Contrato de Solução TI .
+ b) ÁREA DE TECNOLOGIA DA INFORMAÇÃO:  Secretaria Especial de Tecnologia da Informação (SETI) e suas Diretorias, que é o órgão responsável por gerir a Tecnologia da Informação da UFFS. Fases de que participa: Planejamento da Contratação de Soluções de TI, Seleção do Fornecedor de Soluções de TI e Gerenciamento do Contrato de Solução TI.
+  c) EQUIPE DE PLANEJAMENTO DA CONTRATAÇÃO: Equipe formada por servidores das áreas envolvidas no planejamento da Contratação, composta por: Integrante Técnico; Integrante Administrativo e Integrante Requisitante. Fases de que participa: Planejamento da Contratação de Soluções de TI e Seleção do Fornecedor de Soluções de TI.
+  d) INTEGRANTE TÉCNICO:  Servidor(es) representante(s) da SETI, indicado pela autoridade competente dessa área, com conhecimento técnico relacionado a Solução. É parte integrante da Equipe de Planejamento da Contratação. Fases de que participa: Planejamento da Contratação de Soluções de TI e Seleção do Fornecedor de Soluções de TI.
+ e) INTEGRANTE ADMINISTRATIVO:  Servidor representante da Pró-Reitoria de Administração e Infraestrutura (PROAD) da UFFS e suas Diretorias, indicado pela autoridade competente dessa área. É parte integrante da Equipe de Planejamento da Contratação. Fase de que participa: Planejamento da Contratação de Soluções de TI.
+ f) INTEGRANTE REQUISITANTE:  Servidor representante da Área Requisitante da Solução, indicado pela autoridade competente dessa área, com capacidade técnica relacionada a área de negócio em que a mesma atua. É parte integrante da Equipe de Planejamento da Contratação. Fase de que participa: Planejamento da Contratação de Soluções de TI.
+  g) ÁREA ADMINISTRATIVA: Pró-Reitoria de Administração e Infraestrutura (PROAD) da UFFS e suas Diretorias, responsáveis pela execução dos atos administrativos. Fases de que participa: Planejamento da Contratação de Soluções de TI e Seleção do Fornecedor de Soluções de TI.
+  h) ÁREA DE LICITAÇÕES: Diretoria de Compras e Licitações (PROAD/UFFS) responsável pelas atividades envolvidas no processo licitatório. Fase de que participa: Seleção do Fornecedor de Soluções de TI.
+  i) CONTRATADA: Entidade provedora da Solução de Tecnologia da Informação, podendo ser uma empresa terceirizada ou uma das Diretorias da SETI. Fases de que participa: Seleção do Fornecedor de Soluções de TI e Gerenciamento do Contrato de Solução TI.
+  j) GESTOR DO CONTRATO: Servidor com atribuições gerenciais, técnicas e operacionais ligado a Pró-Reitoria de Administração e Infraestrutura (PROAD), que é responsável, no âmbito da UFFS, pelo processo de Gestão do Contrato, indicado pela autoridade competente. Fase de que participa: Gerenciamento do Contrato de Solução TI.
+  k) FISCAL TÉCNICO DO CONTRATO: Servidor representante da SETI, indicado pela autoridade competente dessa área para fiscalizar tecnicamente o contrato. Fase de que participa: Gerenciamento do Contrato de Solução TI.
+ l) FISCAL ADMINISTRATIVO DO CONTRATO:  Servidor representante da Pró-Reitoria de Administração e Infraestrutura (PROAD) da UFFS e suas Diretorias, indicado pela autoridade competente dessa área para fiscalizar o contrato quanto aos aspectos administrativos. Fase de que participa: Gerenciamento do Contrato de Solução TI.
+ m) FISCAL REQUISITANTE DO CONTRATO:  Servidor representante da Área Requisitante da Solução, indicado pela autoridade competente dessa área para fiscalizar o contrato do ponto de vista funcional do bem ou serviço demandado. Fase de que participa: Gerenciamento do Contrato de Solução TI.
+ n) PREPOSTO:  funcionário representante da empresa contratada, responsável por acompanhar a execução do contrato e atuar como interlocutor principal junto à contratante, incumbido de receber, diligenciar, encaminhar e responder as principais questões técnicas, legais e administrativas referentes ao andamento contratual. Fase de que participa: Gerenciamento do Contrato de Solução TI.
+  3. PLANEJAMENTO DA CONTRATAÇÃO DE SOLUÇÕES DE TI
+  A INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010, em seu art. 4º, afirma que as contratações deverão ser precedidas de planejamento, elaborado em harmonia com o planejamento da Instituição.
+ Esta etapa se inicia com o envio do Documento de Oficialização da Demanda - DOD à SETI e com a consolidação deste, é instituída a Equipe de Planejamento da Contratação. Em seguida, são executados em paralelo os seguintes processos: Análise de Viabilidade da Contratação, Plano de Sustentação, Estratégia de Contratação, Análise de Riscos e a Consolidação das Informações no Termo de Referência ou Projeto Básico.
+ Como apresentado no Fluxo apresentado na Figura 2.
+ Figura 2. Planejamento da Contratação de Soluções em TI
+ Fonte: Elaborado com base nas orientações do Ministério do Planejamento, Orçamento e Gestão, 2011
+ 3.1 INICIAÇÃO
+    O processo começa com o preenchimento do Documento de Oficialização da Demanda (DOD)  que tem como principal objetivo apresentar a demanda e vincular a mesma ao Plano Plurianual da UFFS e Ações Anuais. Além disso, é importante observar o Manual de Compras da UFFS e a Agenda de Compras. Com o DOD preenchido a instância superior da Área Requisitante deve analisá-lo para verificar a convergência estratégica e necessidade real da solução para o atingimento das Metas elencadas. Depois do DOD preenchido e analisado pela Área Requisitante da Solução, este deve ser encaminhado para a SETI, através do e-mail  seti@uffs.edu.br, que verifica os requisitos do mesmo e, caso necessário, devolve-o à Área Requisitante da Solução para correções. Realizadas as alterações, o DOD é reenviado para a SETI.
+ Esta interação entre as áreas Requisitante e de TI pode ser caracterizada como uma análise prévia das necessidades de negócio, e sofrerá tantas interações quantas forem necessárias até que se obtenha um DOD satisfatoriamente consolidado.
+ Cabe ressaltar que deve-se evitar o trâmite desnecessário de documentos, promovendo a cooperação sensata e produtiva entre as áreas.
+ Uma vez consolidado o DOD, a SETI deve indicar o Integrante Técnico da Equipe de Planejamento da Contratação e encaminhar o documento para a PROAD. Esta deve analisá-lo, estando em conformidade deve indicar o Integrante Administrativo da Equipe de Planejamento da Contratação e encaminhar o DOD para a instância superior do solicitante, podendo ser: Reitoria, Pró-Reitorias, Coordenador Acadêmico, Coordenador Administrativo ou Coordenador de Unidade, que deverá analisá-lo e dar parecer deliberativo sobre a continuidade ou não da Contratação.
+ Caso a Área Requisitante decida pela continuidade da Contratação, esta deverá dar entrada do DOD no CPAV encaminhando a PROAD. A PROAD, após ser notificada, deve instituir, a Equipe de Planejamento da Contratação, por meio de Portaria.
+ O fluxo da Iniciação do processo pode ser visualizado na Figura 3.
+ Figura 3. Processo de Iniciação da Contratação de Soluções em TI
+ Fonte: Elaborado com base nas orientações do Ministério do Planejamento, Orçamento e Gestão, 2011
+ 3.2 ANÁLISE DE VIABILIDADE DA CONTRATAÇÃO
+ O processo de Análise de Viabilidade da Contratação produz o documento Análise de Viabilidade da Contratação  e esta previsto no art. 11 da INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010. O objetivo é realizar uma análise detalhada sobre a viabilidade, ou não, da demanda gerada na fase de Iniciação.
+ A Análise de Viabilidade da Contratação inicia-se com a definição dos requisitos da Solução de Tecnologia da Informação, seguida pela especificação destes requisitos. Estas informações compõem o conteúdo do documento chamado Especificação de Requisitos.
+ Deve-se realizar também, a análise e comparação dos custos totais de propriedade das soluções identificadas. Deste conjunto de soluções, deve ser escolhida uma solução específica. Esta escolha deve ser devidamente justificada. Além disso, há de se avaliar ainda se existem necessidades de adequação no ambiente que devem ser satisfeitas para viabilizar a Contratação.
+ 3.3 PLANO DE SUSTENTAÇÃO
+ O processo de elaboração do Plano de Sustentação produz o Plano de Sustentação , que visa garantir a continuidade do negócio, enquanto este for necessário à Administração Pública.
+ Segundo o art. 14 da INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010, para elaborar do Plano de Sustentação, é preciso identificar os recursos materiais e humanos necessários à continuidade do negócio. Deve-se definir ações de contingência para garantir a “[...] continuidade do fornecimento da Solução de Tecnologia da Informação em eventual interrupção contratual”, bem como as atividades a realizar em caso de eventual transição contratual e encerramento do contrato. Também é necessário definir e descrever uma “[...] estratégia de independência do órgão ou entidade contratante com relação à contratada”.
+ 3.4 ESTRATÉGIA DA CONTRATAÇÃO
+ O art. 15 da INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010 aponta a necessidade de elaboração da Estratégia da Contratação que “[...] será elaborada a partir da Análise de Viabilidade da Contratação e do Plano de Sustentação”.
+ O processo de elaboração da Estratégia da Contratação se inicia com a indicação da Solução de Tecnologia da Informação a ser contratada.
+ A Estratégia da Contratação deve conter os termos contratuais, indicando todas as responsabilidades da Contratada, os critérios técnicos de julgamento das propostas que serão apresentadas na fase de Seleção do Fornecedor, o orçamento detalhado e uma estimativa do impacto econômico-financeiro que a Contratação causará na UFFS.
+ Nestas definições, deve-se levar em consideração princípios como oportunidade, conveniência e a manutenção do equilíbrio financeiro do futuro contrato. Ao final desta etapa será produzido a Estratégia da Contratação .
+ 3.5 ANÁLISE DE RISCOS
+ A Análise de Riscos está descrita no art. 16. da INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010 e deverá ser elaborada pela Equipe de Planejamento da Contratação. Para isso, devem ser identificados os riscos que possam comprometer o sucesso da contratação e da gestão contratual e os riscos de a Solução não vir a alcançar os resultados que atendam às necessidades da área solicitante e da UFFS.
+ Para cada risco identificado, devem ser relacionados os potenciais danos que a ocorrência do evento relacionado ao risco pode provocar, bem como sua probabilidade. Também devem ser definidas as respectivas ações de prevenção e contingência, bem como seus responsáveis.
+ A Análise de Riscos da Contratação permeia todas as fases do processo de Planejamento da Contratação e deverá ser consolidada no documento Análise de Riscos (INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010, art. 16, § 1º ).
+ 3.6 CONSOLIDAR INFORMAÇÕES
+ Esta é a última atividade da fase de Planejamento da Contratação. Aqui deve-se consolidar as informações geradas durante a fase em um documento intitulado Termo de Referência ou Projeto Básico .
+ Conforme definido no art. 17, § 1º da INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010, o Termo de Referência ou Projeto Básico será elaborado pela Equipe de Planejamento da Contratação.
+ De posse dos Documentos gerados durante a fase de Planejamento da Contratação (Análise de Viabilidade da Contratação, Plano de Sustentação, Estratégia da contratação e Análise de Riscos) a Equipe de Planejamento da Contratação deverá gerar o Termo de Referência ou Projeto Básico. Este documento deve ser aprovado pelas autoridades competentes (INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010, art. 17, § 4º ), no caso da UFFS estas autoridades são: o Pró-Reitor de Administração e Infraestrutura e o Secretário Especial de Tecnologia da Informação.
+  4. SELEÇÃO DO FORNECEDOR DE SOLUÇÕES DE TI
+  Segundo o art. 22 da INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010, caberá à Diretoria de Compras e Licitações conduzir as etapas da fase de Seleção do Fornecedor. Por este motivo, não detalhamos esta fase.
+ Baseado na INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010, art. 21, temos que a fase de Seleção do Fornecedor inicia com o encaminhamento do Termo de Referência ou Projeto Básico à Diretoria de Compras e Licitações e o preenchimento no SCL do pedido de compras. Este preenchimento deve ser feito pela área solicitante.
+ Assim sendo, a Diretoria de Compras e Licitações deve avaliar o Termo de Referência ou Projeto Básico e, caso existam necessidades de adequação, este deve ser devolvido à SETI, que ficará responsável por revisar tecnicamente o documento, para posteriormente reencaminhá-lo à Diretoria de Compras e Licitações.
+ Prosseguindo nesta fase, caberá a SETI apoiar tecnicamente o pregoeiro ou a Comissão de Licitação nas respostas aos questionamentos ou às impugnações dos licitantes. Também caberá à SETI apoiar tecnicamente o pregoeiro na análise e julgamento das propostas e dos recursos apresentados pelos licitantes.
+ Após a assinatura do contrato, deve ser destituída a Equipe de Planejamento da Contratação e nomeados o Gestor e os respectivos Fiscais do Contrato.
+ Para os casos de solicitação de serviços internos , prestados pela Secretaria Especial de Tecnologia da Informação, através de suas Diretorias, não será necessário a realização desta etapa.
+  5. GERENCIAMENTO DO CONTRATO DE SOLUÇÃO DE TI
+  O art. 25 da INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010 afirma que “[...] a fase de Gerenciamento do Contrato visa acompanhar e garantir o fornecimento dos bens e a adequada prestação dos serviços que compõem a Solução de Tecnologia da Informação durante todo o período de execução do contrato”. Para isso, é necessária a realização de uma reunião inicial para consolidação de uma base de conhecimentos para todos os outros processos da fase de Gestão Contratual.
+ Durante a execução contratual, a UFFS, através da Diretoria Gestão, Programação e Acompanhamento da PROAD, encaminha Ordens de Serviço à Contratada. Paralelamente, deve ocorrer o processo de Monitoramento da Execução Contratual. Esta atividade é a mais ampla do processo.
+ A Gestão Contratual será realizada por Pró-Reitor nomeado por Portaria do Reitor, e pelos Fiscais: Técnico, Requisitante e Administrativo do Contrato, conforme art. 24 INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010. Estes deverão ser nomeados conforme descrito nos incisos IV, V, VI e VII do Art. 2º, sendo preferencialmente, os Integrantes da Equipe de Planejamento da Contratação.
+ A seguir, descrevemos, de forma sucinta, os processos e atividades envolvidas nesta fase.
+  a) Iniciação: esta fase começa com a elaboração do Plano de Inserção, elaborado pelo Gestor do Contrato, com apoio dos fiscais Técnico, Administrativo e Requisitante. Em seguida, o Gestor deve convocar uma Reunião Inicial com todos os envolvidos na Contratação, gerando uma ata que deve ser aprovada por todos os participantes e devem ser entregues pela Contratada, devidamente assinados, o Termo de Compromisso e o Termo de Ciência. O resultado dessa fase é o Plano de Inserção ;
+  b) Encaminhar Ordem de Serviço ou de Fornecimento de Bens:  Nesta atividade, o Gestor do Contrato encaminhará formalmente as Ordens de Serviço (OS) ou de Fornecimento de Bens ao Preposto (OFB);
+  c) Monitoramento da Execução: esta fase inicia com o recebimento, pelo Fiscal Técnico, do Objeto da Contratação, podendo ser total ou parcial. No caso de recebimento parcial, o Fiscal Técnico receberá os itens constantes da OS ou de OFB específica. O processo deve ser executado tantas vezes quantas forem necessárias para o recebimento total do objeto do contrato. Uma vez recebidos todos os itens constantes da OS ou OFB, deve-se elaborar um Termo de Recebimento Provisório , a ser entregue ao Preposto. Depois o Fiscal Técnico deve avaliar a qualidade dos itens recebidos de acordo com os critérios de aceitação definidos no Contrato. Os desvios de qualidade identificados devem ser encaminhados ao Gestor do Contrato, que é o responsável por decidir sobre os encaminhamentos. Caso os desvios de qualidade identificados sejam enviados à Contratada para correção, caberá ao Fiscal Técnico nova avaliação da qualidade dos itens corrigidos. Em se verificando a conformidade dos itens, o Fiscal Administrativo deve verificar se a execução da OS ocorreu de forma aderente aos termos contratuais. Estando tudo correto deve ser elaborado o Termo de Recebimento Definitivo , que será entregue à Contratada. O Gestor do Contrato dá continuidade ao processo. O Fiscal Requisitante deve verificar a manutenção da necessidade, economicidade e oportunidade da Contratação, dando continuidade à execução contratual. Caso verifique que não se mantêm as condições supracitadas, este Fiscal deve solicitar ao Gestor que encaminhe a devida alteração contratual. Ao Fiscal Técnico e ao Requisitante cabe ainda verificar se as condições elencadas no Plano de Sustentação estão sendo mantidas. Da mesma forma, o Gestor do Contrato deve manter o “Histórico de Gerenciamento do Contrato, contendo registros formais de todas as ocorrências positivas e negativas da execução do contrato, por ordem histórica” (INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010, art. 25, II, “n”);
+ d) Transição Contratual: esta fase deve ser cuidadosamente planejada, de modo a minimizar o risco da descontinuidade de serviços ou fornecimento de bens, observando-se, conforme o caso, a manutenção dos níveis dos serviços; deve ser observado o Plano de Sustentação como insumo para a execução deste processo.
+ 6. DOCUMENTOS
+  Para o cumprimento INSTRUÇÃO NORMATIVA Nº 4, DE 12 DE NOVEMBRO DE 2010 é necessário a produção de documentos que irão registrar o processo da contratação. Para os Requisitantes de Soluções de TI, um dos principais documentos é o Documento de Oficialização da Demanda - DOD.
+ 6.1 DOCUMENTO DE OFICIALIZAÇÃO DA DEMANDA - DOD
+  6.1.1 Informações gerais
+  Construção: Área Requisitante da Solução.
+ Participação: SETI e PROAD.
+ Objetivos do Documento:
+ - Vincular as necessidades da Contratação desejada ao Plano Plurianual da UFFS e Ações Anuais;
+ - Formalizar o início do processo de planejamento da Contratação de TI;
+ - Indicar a fonte de recursos para a Contratação;
+ - Indicar os integrantes da Equipe de Planejamento da Contratação.
+  6.1.2 Instruções de preenchimento
+  O Documento de Oficialização da Demanda contém o detalhamento da necessidade da Área Requisitante da Solução e seu conteúdo é formado por:
+ a) IDENTIFICAÇÃO DA ÁREA REQUISITANTE DA SOLUÇÃO
+ • Unidade/Setor/departamento: Pró-Reitoria, Secretaria, Diretoria ou Departamento da UFFS responsável pela requisição de contratação. Esta unidade é a demandante, que tem necessidade(s) vinculada(s) a objetivos estratégicos da UFFS.
+ • Data: Data em que a oficialização da demanda está sendo efetivada.
+ • Nome do Projeto: Nome que distinga o projeto das demais demandas ou contratações da Instituição.
+ • Responsável pela Demanda: Nome da pessoa responsável pela demanda de Contratação que está sendo gerada.
+ • Telefone e E-mail  do Responsável pela Demanda;
+ • Matrícula: Número da matrícula SIAPE do responsável pela demanda.
+ • Fonte de Recursos: Fonte dos recursos que serão utilizados para a Contratação; indicar o Desafio do Plano Plurianual - Ações Anuais que a demanda irá atender.
+ b) EQUIPE DE PLANEJAMENTO DA CONTRATAÇÃO
+ • Integrante Requisitante: Nome do servidor indicado como Integrante Requisitante que fará parte da Equipe de Planejamento da Contratação e a matrícula SIAPE.
+ • Telefone e E-mail  do Integrante Requisitante;
+ • Integrante Técnico: Nome do servidor indicado como Integrante e Técnico, que fará parte da Equipe de Planejamento da Contratação e a matrícula SIAPE.
+ • Telefone e e-mail  do Integrante Técnico;
+ • Integrante Administrativo: Nome do servidor indicado como Integrante Administrativo, que fará parte da Equipe de Planejamento da Contratação e a matrícula SIAPE.
+ • Telefone e e-mail  do Integrante Administrativo.
+ c) SOLUÇÃO DEMANDADA: descrever a solução demandada (Bem ou Serviço de TI), indicando a quantidade necessária e uma estimativa de valor total.
+ d) ALINHAMENTO - PLANO PLURIANUAL: Relação da demanda solicitada com o Plano Plurianual da UFFS, para tanto devem ser listados:
+ • Ações anuais atendidas com a demanda, bem como a Justificativa / Motivação da Aquisição; a Ação indicada deve estar previamente planejada e contida no Plano Plurianual da UFFS, bem como justificar o impacto da aquisição na execução da ação e a motivação da aquisição.
+ • Metas do Plano Plurianual a serem impactadas: com base no Plano Plurianual da UFFS apontar quais metas serão atendidas com a Contratação.
+ e) INDICAR INTEGRANTE TÉCNICO: estando o DOD preenchido de acordo, a autoridade competente da SETI fará a indicação de técnico para formar a Equipe de Planejamento da Contratação. Esta indicação deve ser então devidamente transcrita para o DOD, o qual, nesta etapa, já deverá conter a indicação do Integrante Requisitante. Feita a indicação, o DOD deverá ser enviado à PROAD.
+ f) ANALISAR DOD - PROAD: o DOD deve ser analisado pela PROAD para ver se está preenchido de acordo com as recomendações.
+ g) INDICAR INTEGRANTE ADMINISTRATIVO: Estando o DOD de acordo, a PROAD deverá indicar o integrante da Equipe de Planejamento da Contratação. A indicação deve ser realizada no próprio DOD em espaço específico para este fim, nesta etapa já há a indicação do Integrante Requisitante e do Integrante Técnico. O DOD deve então ser enviado a instância superior da área requisitante da contratação, podendo ser: Reitoria, Pró-Reitorias, Coordenador Acadêmico, Coordenador Administrativo ou Coordenador de Unidade
+ h) APROVAÇÃO DO DOD: a instância superior a que realizou a solicitação deverá analisar o DOD e dar parecer deliberativo sobre o prosseguimento ao processo de Planejamento da Contratação ou esta solicitação deverá ser arquivada. Em caso de aprovação, o DOD deverá ser enviado para a PROAD, através do CPAV, e no caso de arquivamento o processo se encerra.
+ i) INSTITUIR EQUIPE DE PLANEJAMENTO DA CONTRATAÇÃO: recebendo o DOD aprovado, através do CPAV, a PROAD deverá instituir a Equipe de Planejamento da Contratação, publicando Portaria de nomeação.
+ 6.2 DOCUMENTOS PARA O PLANEJAMENTO DA CONTRATAÇÃO DAS SOLUÇÕES
+ Após aprovada a demanda, esta passa para o planejamento da contratação sendo que nesta fase é necessário o preenchimento dos seguintes documentos:
+  a) Análise de Viabilidade da Contratação : que é construído pelo Integrante Técnico, com Integrante Requisitante e Integrante Administrativo. O objetivo deste é demonstrar a viabilidade técnica e econômica da contratação e compõe-se das seguintes seções: especificação dos requisitos, avaliação das soluções disponíveis, estimativa orçamentária e outras análises que sejam aplicáveis.
+  b) Plano de Sustentação : elaborado pelo Integrante Técnico, com o apoio dos Integrante Requisitante e Integrante Administrativo. O objetivo é garantir a continuidade do negócio durante e após a entrega da Solução de Tecnologia da Informação, bem como após o encerramento do contrato. Deverá conter as seguinte es informações:
+ - descrição resumida do conteúdo e da finalidade do documento;
+ - recursos necessários à continuidade do negócio durante e após a execução do contrato;
+ - estratégia de continuidade contratual: eventos que possam causar interrupção contratual, das ações de prevenção e contingência, e dos responsáveis pelas mesmas;
+ - ações para transição e encerramento contratual: relação das ações que devem ser realizadas quando da transição ou encerramento do contrato relativo à solução escolhida;
+ - estratégia de independência: relação de todas informações necessárias e suficientes ao perfeito funcionamento ou operação da solução escolhida, a serem transferidas pela contratada à Instituição, e da forma de transferência de cada informação, bem como das definições quanto à propriedade intelectual, quando aplicável.
+  c) Estratégia da Contratação : documento elaborado conjuntamente pela Equipe de Planejamento da Contratação, com o objetivo de definir e formalizar a estratégia para a contratação. Deverá conter as seguintes informações:
+ - Descrição da Solução: Descrever detalhadamente a Solução de Tecnologia da Informação para posterior análise frente aos requisitos de negócio e aos requisitos técnicos, bem como frente a outras soluções disponíveis;
+ - responsabilidades da UFFS e da contratada;
+ - termos contratuais: relação de critérios, volumes, métodos e procedimentos para qualificação do bem ou serviço a receber, para fins de aceitação;
+ - procedimentos e critérios de aceitação da proposta; incluindo valores, formas de pagamento, cronograma, entre outros aspectos;
+ - orçamento detalhado e a adequação orçamentária;
+ - critérios de julgamento das propostas.
+  d) Análise de Riscos: a construção do documento fica a cargo do Integrante Técnico, com apoio do Integrante Requisitante e do Integrante Administrativo. Este documento visa Descrever e avaliar as ameaças que possam vir a comprometer o sucesso e o objetivo da contratação, bem como definir de que formas devem ser tratadas. Deve conter os seguintes itens:
+ - riscos do processo de contratação (riscos do processo): relação dos riscos que podem impactar no processo de contratação, seus danos potenciais e ações de mitigação e contingência.
+ - riscos da solução de tecnologia da informação (riscos do produto): relação dos riscos que e podem impactar no sucesso da contratação, isto é, no cumprimento do objetivo da contratação, seus danos potenciais e ações de mitigação e contingência.
+  e) Termo de Referência ou Projeto Básico : a elaboração fica a cargo da SETI, com apoio dos Integrantes Requisitante e Administrativo. O objetivo é descrever os elementos necessários e suficientes, com nível de precisão adequado, para subsidiar o processo licitatório. O documento deve conter:
+ - objeto da contratação;
+ - fundamentação da contratação: demanda prevista, quantitativo, motivação; resultados a serem alcançados, tais como economicidade, agilidade, eficiência, eficácia, etc.; necessidade advindas do planejamento da UFFS e benefícios;
+ - descrição da solução de TI, com a especificação técnica;
+ - requisitos da solução: podem ser internos (funcionais e não-funcionais) ou externos;
+ - modelo de prestação de serviço / fornecimento de bens;
+ - elementos para gestão do contrato;
+ - estimativa de preço, adequação orçamentária e sanções aplicáveis;
+ - critérios de seleção do fornecedor.
+ 
+ 
+
+
+						
+						
+							
+								Data do ato: Chapecó-SC, 27 de abril de 2012.
+								
+								
+							
+						
+						
+					    
+					        
+								Jaime Giolo
+								
+								Reitor pro tempore da UFFS
+							
+					    
+         
+					        
+					    
+						
+						
+						
+						
+						
+						
+						
+					    
+				        	Anexos
+				        	
+					            
+									
+										
+										ANEXO I - Manual para Contratação de Soluções de TI
+									
+					            
+				        	 
+						
+				    
+					
+					
+						Documento Histórico
+						
+							
+								
+								PORTARIA Nº 423/GR/UFFS/2012 (REVOGADA)
