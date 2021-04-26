@@ -271,3 +271,4 @@ cordova/resources
 electron-build
 electron/www
 typings
+/src/.stop
