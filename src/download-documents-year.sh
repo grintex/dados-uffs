@@ -23,7 +23,7 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
-echo "Iterando documentos de ${YELLOW}$YEAR${NC}:"
+echo -e "Iterando documentos de ${YELLOW}$YEAR${NC}:"
 
 for url_fmt in "${base_urls[@]}"; do
     i=1
@@ -32,7 +32,7 @@ for url_fmt in "${base_urls[@]}"; do
         if [[ "$i" -gt $MAX_ITEMS_YEAR ]]; then
             break
         fi
-
+       
         leading_number=$(printf "%04d\n" $i)
 
         url=${url_fmt/$YEAR_FMT/$YEAR}
@@ -40,21 +40,26 @@ for url_fmt in "${base_urls[@]}"; do
 
         output_folder=$DATA_DIR/text/$YEAR/${url/$BASE_URL/}
 
+        if [ -f "$SRC_DIR/.stop" ]; then
+            echo -e "${RED}STOP${NC} ${YELLOW}$YEAR${NC} em $url"
+            exit 1
+        fi
+
         if [ -d "$output_folder" ]; then
-            echo " ignorando (existente) ${YELLOW}$url${NC}"
+            echo -e "${YELLOW}SKIP${NC} (existente) ${YELLOW}$YEAR${NC} $url"
         fi
 
         if [ ! -d "$output_folder" ]; then
             if curl --output /dev/null --silent --head --fail "$url"
             then
                 # URL existe (HTTP 200)
-                echo " baixando ${GREEN}$url${NC}"
+                echo -e "${GREEN}OK${NC} (downloading) ${YELLOW}$YEAR${NC} $url"
                 mkdir -p $output_folder
                 scrapy runspider $SRC_DIR/download-document.py -a url="$url" -a output="$output_folder" --nolog                
             else
                 # URL não existe (HTTP 404)
-                echo " erro 404 em ${RED}$YEAR${NC}$url, desistindo das buscas"
-                break 2
+                echo -e "${RED}ERROR${NC} (404) ${YELLOW}$YEAR${NC} $url"
+                break
             fi
         fi
 
@@ -62,4 +67,4 @@ for url_fmt in "${base_urls[@]}"; do
     done
 done
 
-echo "Finalizado com documentos de ${YELLOW}$YEAR${NC}!"
+echo -e "Finalizado com documentos de ${YELLOW}$YEAR${NC}!"
