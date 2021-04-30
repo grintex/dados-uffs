@@ -12,9 +12,17 @@ BASE_URL="https://www.uffs.edu.br/UFFS/"
 
 base_urls=(
     "https://www.uffs.edu.br/UFFS/atos-normativos/edital/gr/@Y-@N"
+    "https://www.uffs.edu.br/UFFS/atos-normativos/edital/prograd/@Y-@N"
+
     "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/gr/@Y-@N"
     "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/dirch/@Y-@N"
     "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/proad/@Y-@N"
+    "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/prograd/@Y-@N"
+    "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/propepg/@Y-@N"
+    "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/proplan/@Y-@N"
+    "https://www.uffs.edu.br/UFFS/atos-normativos/portaria/progesp/@Y-@N"    
+
+    "https://www.uffs.edu.br/UFFS/atos-normativos/resolucao/consuni/@Y-@N"
 )
 
 # https://stackoverflow.com/a/5947802
